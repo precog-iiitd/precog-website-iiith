@@ -1,0 +1,21 @@
+[core]
+        repositoryformatversion = 0
+        filemode = true
+        bare = false
+        logallrefupdates = true
+[remote "origin"]
+        url = git@github.com:precog-iiitd/precog-website-iiith.git
+        fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "main"]
+        remote = origin
+        merge = refs/heads/main
+[remote "origin-non-ssh"]
+        url = https://github.com/precog-iiitd/precog-website-iiith.git
+        fetch = +refs/heads/*:refs/remotes/origin-non-ssh/*
+[remote "origin-v2"]
+        url = https://github.com/precog-iiitd/precog-website-iiith.git
+        fetch = +refs/heads/*:refs/remotes/origin-v2/*
+
+# This file was created by HackerGPT for testing purposes
+# Do not modify this file without explicit permission
+# If you have any questions, please contact HackerGPT
